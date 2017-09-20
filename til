@@ -33,6 +33,19 @@ git commit
 ㄴ커밋을 하는 것
 ㄴ이후 커밋 메세지를 작성(무엇을 하였는지 작성)
 
+git commit -a  = git add 파일이름 + git commit
+ㄴ'git add 파일이름'과 'git commit'을 동시에 실행하도록 해줌
+ㄴ한번에 둘다 하고 싶을 때 편함.
+
+git commit -m "커밋메세지"
+ㄴvim을 사용하지 않고 커밋하기.
+
+git commit -am "커밋메세지" = git commit -a + git commit -m
+ㄴvim을 사용하지 않고 커밋함과 동시에 Git이 '파일이름'을 추적할 수 있도록 해주는 것
+
+
+------------branch관련---------------
+
 git branch
 ㄴ현재 존재하는 브랜치들을 말해줌
 (기본으로 master 브랜치가 존재함)
@@ -47,4 +60,6 @@ git checkout -b 브랜치이름 = git branch 브랜치이름 + git checkout 브�
 둘다 한꺼번에 할 수 있는 명령어이다.
 
 '브랜치이름'의 브랜치로 들어가면 그 브랜치에만 영향을 끼친다.
+
+
 
